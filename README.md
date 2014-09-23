@@ -8,7 +8,7 @@ Installation
 Download iaff_geoshape and install it directly from source:
 
 ```
-git clone <address>
+git clone https://github.com/ROGUE-JCTD/iaff_geoshape.git
 cd iaff_geoshape
 python setup.py install
 ```
