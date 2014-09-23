@@ -27,7 +27,6 @@ class PowerOutage(models.Model):
     objects = models.GeoManager()
     geom = models.PointField()
 
-
     @staticmethod
     def get_query_url(service=SERVICE):
         """
@@ -37,7 +36,10 @@ class PowerOutage(models.Model):
         spatial_reference = full_extent.get('spatialReference').get('wkid')
         extent = [full_extent.get('xmin'), full_extent.get('ymin'), full_extent.get('xmax'), full_extent.get('ymax')]
         envelope = '%2C'.join(map(str, extent))
-        return 'http://outagemap.dom.com/ArcGIS/rest/services/DOMCOM_OUTAGE_VIEWER/MapServer/0/query?text=&geometry={envelope}&geometryType=esriGeometryEnvelope&inSR={spatial_reference}&spatialRel=esriSpatialRelEnvelopeIntersects&where=&returnGeometry=true&outSR=&outFields=*&f=pjson'.format(envelope=envelope, spatial_reference=spatial_reference)
+        return 'http://outagemap.dom.com/ArcGIS/rest/services/DOMCOM_OUTAGE_VIEWER/MapServer/0/query?text=&geometry=' \
+               '{envelope}&geometryType=esriGeometryEnvelope&inSR={spatial_reference}&spatialRel=' \
+               'esriSpatialRelEnvelopeIntersects&where=&returnGeometry=true&outSR=&outFields=*&f=pjson'\
+            .format(envelope=envelope, spatial_reference=spatial_reference)
 
     @staticmethod
     def fetch_data():
@@ -93,13 +95,3 @@ class PowerOutage(models.Model):
             geometry = feature.get('geometry')
             outage.geom = Point(geometry.get('x', 0), geometry.get('y', 0), srid=cls.SERVICE_SRID)
             outage.save()
-
-
-
-
-
-
-
-
-
-
