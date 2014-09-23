@@ -1,7 +1,7 @@
-IAFF ROGUE
-==========
+IAFF GeoSHAPE
+=============
 
-A GeoShape plugin for the IAFF.
+A django plugin to add additional functionality to the IAFF's GeoShape instance.
 
 Installation
 ------------
