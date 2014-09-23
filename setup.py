@@ -44,7 +44,7 @@ for dirpath, dirnames, filenames in os.walk(geonode_dir):
 
 setup(name='iaff_geoshape',
       version='0.0.1',
-      description="Application for serving and sharing geospatial data",
+      description="A django plugin to add additional functionality to the IAFF's GeoShape instance.",
       long_description=open('README.md').read(),
       classifiers=["Development Status :: 4 - Beta"],
       keywords='',
