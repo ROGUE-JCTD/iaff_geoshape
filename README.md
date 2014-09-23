@@ -19,7 +19,7 @@ Project Configuration
 Once installed you can configure your project to use
 iaff_geoshape with the following steps.
 
-Add ``maploom`` to ``INSTALLED_APPS`` in your project's
+Add ``iaff_geoshape`` to ``INSTALLED_APPS`` in your project's
 ``settings`` module:
 
     INSTALLED_APPS = (

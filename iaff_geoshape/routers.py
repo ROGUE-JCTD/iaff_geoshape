@@ -5,7 +5,7 @@ class IAFFGeoRouter(object):
     IAFF ROGUE application.
     """
 
-    APP_LABEL = 'iaff_rogue'
+    APP_LABEL = 'iaff_geoshape'
     DATABASE = 'geonode_imports'
 
     def db_for_read(self, model, **hints):
