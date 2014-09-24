@@ -29,9 +29,9 @@ packages, data_files = [], []
 root_dir = os.path.dirname(__file__)
 if root_dir != '':
     os.chdir(root_dir)
-geonode_dir = 'iaff_rogue'
+iaff_geoshape_dir = 'iaff_geoshape'
 
-for dirpath, dirnames, filenames in os.walk(geonode_dir):
+for dirpath, dirnames, filenames in os.walk(iaff_geoshape_dir):
     # Ignore dirnames that start with '.'
     for i, dirname in enumerate(dirnames):
         if dirname.startswith('.'):
