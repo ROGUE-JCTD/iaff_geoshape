@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 79, "CODE": 1, "NAME": "Fire Station 6", "SYMBOL": "FS", "SENIORCENTER": 0, "ADDRESS": "6950 LITTLE FALLS RD" }, "geometry": { "type": "Point", "coordinates": [ -77.164484894246854, 38.887370329327595 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 80, "CODE": 1, "NAME": "Fire Station 8", "SYMBOL": "FS", "SENIORCENTER": 0, "ADDRESS": "4845 LEE HWY" }, "geometry": { "type": "Point", "coordinates": [ -77.127111774337479, 38.896666933074712 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 81, "CODE": 1, "NAME": "Fire Station 10", "SYMBOL": "FS", "SENIORCENTER": 0, "ADDRESS": "1599 WILSON BLVD" }, "geometry": { "type": "Point", "coordinates": [ -77.076603807644915, 38.894669505610757 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 82, "CODE": 1, "NAME": "Fire Station 2", "SYMBOL": "FS", "SENIORCENTER": 0, "ADDRESS": "4805 WILSON BLVD" }, "geometry": { "type": "Point", "coordinates": [ -77.119957529986166, 38.878665742989796 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 83, "CODE": 1, "NAME": "Fire Station 4 & HDQTRS", "SYMBOL": "FS", "SENIORCENTER": 0, "ADDRESS": "3121 N 10TH ST" }, "geometry": { "type": "Point", "coordinates": [ -77.096205499489088, 38.884648038548761 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 84, "CODE": 1, "NAME": "Fire Station 1", "SYMBOL": "FS", "SENIORCENTER": 0, "ADDRESS": "500 S GLEBE RD" }, "geometry": { "type": "Point", "coordinates": [ -77.095846379300824, 38.866829322271663 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 85, "CODE": 1, "NAME": "Fire Station 9", "SYMBOL": "FS", "SENIORCENTER": 0, "ADDRESS": "1900 S WALTER REED DR" }, "geometry": { "type": "Point", "coordinates": [ -77.091789693659067, 38.85163909702807 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 86, "CODE": 1, "NAME": "Fire Station 5", "SYMBOL": "FS", "SENIORCENTER": 0, "ADDRESS": "1750 S HAYES ST" }, "geometry": { "type": "Point", "coordinates": [ -77.058164897209792, 38.85746629013768 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 87, "CODE": 1, "NAME": "Fire Station #7", "SYMBOL": "FS", "SENIORCENTER": 0, "ADDRESS": "3116 S ABINGDON ST" }, "geometry": { "type": "Point", "coordinates": [ -77.095641809643212, 38.836675503794773 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 112, "CODE": 1, "NAME": "Fire Station 3", "SYMBOL": "FS", "SENIORCENTER": 0, "ADDRESS": "4100 OLD DOMINION DR" }, "geometry": { "type": "Point", "coordinates": [ -77.110091833839974, 38.897625733040975 ] } }
+]
+}
