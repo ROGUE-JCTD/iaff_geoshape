@@ -3,53 +3,53 @@
         <SrcDataSource>incidents.csv</SrcDataSource>
         <GeometryType>wkbPoint</GeometryType>
         <LayerSRS>WGS84</LayerSRS>
-        <GeometryField encoding="PointFromColumns" x="longitude" y="latitude"/>
-        <Field name="incidentnumber" src="incidentnumber" type="String" />
-        <Field name="CadCallNumber" src="CadCallNumber" type="String" />
-        <Field name="alarmdatetime" src="alarmdatetime" type="DateTime" />
-        <Field name="FirstDispatch" src="FirstDispatch" type="DateTime" />
-        <Field name="FirstArrivalDateTime" src="FirstArrivalDateTime" type="DateTime" />
-        <Field name="FirstArrivingUnit" src="FirstArrivingUnit" type="String" />
-        <Field name="FirstAtPatientDateTime" src="FirstAtPatientDateTime" type="DateTime" />
-        <Field name="LastUnitClearedDatetime" src="LastUnitClearedDatetime" type="DateTime" />
-        <Field name="incidentclasscode" src="incidentclasscode" type="Integer" />
-        <Field name="incidenttype" src="incidenttype" type="Integer" />
-        <Field name="incidenttypedescription" src="incidenttypedescription" type="String" />
-        <Field name="Cad Call Type" src="Cad Call Type" type="String" />
-        <Field name="propertyuse" src="propertyuse" type="String" />
+        <GeometryField name="geom" encoding="PointFromColumns" x="longitude" y="latitude"/>
+        <Field name="incident_number" src="incidentnumber" type="String" />
+        <Field name="cad_call_number" src="CadCallNumber" type="String" />
+        <Field name="alarm_datetime" src="alarmdatetime" type="DateTime" />
+        <Field name="first_dispatch" src="FirstDispatch" type="DateTime" />
+        <Field name="first_arrival_datetime" src="FirstArrivalDateTime" type="DateTime" />
+        <Field name="first_arriving_unit" src="FirstArrivingUnit" type="String" />
+        <Field name="first_at_patient_datetime" src="FirstAtPatientDateTime" type="DateTime" />
+        <Field name="last_unit_cleared_datetime" src="LastUnitClearedDatetime" type="DateTime" />
+        <Field name="incident_class_code" src="incidentclasscode" type="Integer" />
+        <Field name="incident_type" src="incidenttype" type="Integer" />
+        <Field name="incident_type_description" src="incidenttypedescription" type="String" />
+        <Field name="cad_call_type" src="Cad Call Type" type="String" />
+        <Field name="property_use" src="propertyuse" type="String" />
         <Field name="shift" src="shift" type="String" />
-        <Field name="Alarms" src="Alarms" type="Integer" />
-        <Field name="mutualaid" src="mutualaid" type="String" />
-        <Field name="hazardmaterialreleasedcode" src="hazardmaterialreleasedcode" type="String" />
-        <Field name="hazardmaterialreleased" src="hazardmaterialreleased" type="String" />
-        <Field name="Action Taken1" src="Action Taken1" type="Integer" />
-        <Field name="Action Taken2" src="Action Taken2" type="Integer" />
-        <Field name="Action Taken3" src="Action Taken3" type="Integer" />
-        <Field name="Action Taken4" src="Action Taken4" type="Integer" />
-        <Field name="totalpeopleatcall" src="totalpeopleatcall" type="Integer" />
-        <Field name="totalapparatusatcall" src="totalapparatusatcall" type="Integer" />
-        <Field name="fireservicecasualties" src="fireservicecasualties" type="Integer" />
-        <Field name="civiliancasualties" src="civiliancasualties" type="Integer" />
-        <Field name="fireservicefatalities" src="fireservicefatalities" type="Integer" />
-        <Field name="civilianfatalities" src="civilianfatalities" type="Integer" />
-        <Field name="Total Loss" src="Total Loss" type="Integer" />
-        <Field name="propertyloss" src="propertyloss" type="Integer" />
-        <Field name="contentsloss" src="contentsloss" type="Integer" />
-        <Field name="Total Value" src="Total Value" type="Integer" />
-        <Field name="propertyvalue" src="propertyvalue" type="Integer" />
-        <Field name="contentsvalue" src="contentsvalue" type="String" />
-        <Field name="Location Type" src="Location Type" type="String" />
-        <Field name="Common Name" src="Common Name" type="String" />
-        <Field name="Directions" src="Directions" type="String" />
-        <Field name="housenumber" src="housenumber" type="Integer" />
+        <Field name="alarms" src="Alarms" type="Integer" />
+        <Field name="mutual_aid" src="mutualaid" type="String" />
+        <Field name="hazard-material_released_code" src="hazardmaterialreleasedcode" type="String" />
+        <Field name="hazard_material_released" src="hazardmaterialreleased" type="String" />
+        <Field name="action_taken1" src="Action Taken1" type="Integer" />
+        <Field name="action_taken2" src="Action Taken2" type="Integer" />
+        <Field name="action_taken3" src="Action Taken3" type="Integer" />
+        <Field name="action_taken4" src="Action Taken4" type="Integer" />
+        <Field name="total_people_at_call" src="totalpeopleatcall" type="Integer" />
+        <Field name="total_apparatus_at_call" src="totalapparatusatcall" type="Integer" />
+        <Field name="fires_ervice_casualties" src="fireservicecasualties" type="Integer" />
+        <Field name="civilian_casualties" src="civiliancasualties" type="Integer" />
+        <Field name="fire_service_fatalities" src="fireservicefatalities" type="Integer" />
+        <Field name="civilian_fatalities" src="civilianfatalities" type="Integer" />
+        <Field name="total_loss" src="Total Loss" type="Integer" />
+        <Field name="property_loss" src="propertyloss" type="Integer" />
+        <Field name="contents_loss" src="contentsloss" type="Integer" />
+        <Field name="total_value" src="Total Value" type="Integer" />
+        <Field name="property_value" src="propertyvalue" type="Integer" />
+        <Field name="contents_value" src="contentsvalue" type="String" />
+        <Field name="location_type" src="Location Type" type="String" />
+        <Field name="common_name" src="Common Name" type="String" />
+        <Field name="directions" src="Directions" type="String" />
+        <Field name="house_number" src="housenumber" type="Integer" />
         <Field name="street" src="street" type="String" />
         <Field name="location" src="location" type="String" />
         <Field name="city" src="city" type="String" />
         <Field name="state" src="state" type="String" />
-        <Field name="postalcode" src="postalcode" type="String" />
+        <Field name="postal_code" src="postalcode" type="String" />
         <Field name="latitude" src="latitude" type="String" />
         <Field name="longitude" src="longitude" type="String" />
         <Field name="District" src="District" type="String" />
-        <Field name="incidentcomplete" src="incidentcomplete" type="String" />
+        <Field name="incident_complete" src="incidentcomplete" type="String" />
     </OGRVRTLayer>
 </OGRVRTDataSource>
