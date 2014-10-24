@@ -6,12 +6,12 @@
         <GeometryField name="geom" encoding="PointFromColumns" x="longitude" y="latitude"/>
         <Field name="incident_number" src="incidentnumber" type="String" />
         <Field name="cad_call_number" src="CadCallNumber" type="String" />
-        <Field name="alarm_datetime" src="alarmdatetime" type="DateTime" />
-        <Field name="first_dispatch" src="FirstDispatch" type="DateTime" />
-        <Field name="first_arrival_datetime" src="FirstArrivalDateTime" type="DateTime" />
+        <Field name="alarm_datetime" src="alarmdatetime" type="String" />
+        <Field name="first_dispatch" src="FirstDispatch" type="String" />
+        <Field name="first_arrival_datetime" src="FirstArrivalDateTime" type="String" />
         <Field name="first_arriving_unit" src="FirstArrivingUnit" type="String" />
-        <Field name="first_at_patient_datetime" src="FirstAtPatientDateTime" type="DateTime" />
-        <Field name="last_unit_cleared_datetime" src="LastUnitClearedDatetime" type="DateTime" />
+        <Field name="first_at_patient_datetime" src="FirstAtPatientDateTime" type="String" />
+        <Field name="last_unit_cleared_datetime" src="LastUnitClearedDatetime" type="String" />
         <Field name="incident_class_code" src="incidentclasscode" type="Integer" />
         <Field name="incident_type" src="incidenttype" type="Integer" />
         <Field name="incident_type_description" src="incidenttypedescription" type="String" />
