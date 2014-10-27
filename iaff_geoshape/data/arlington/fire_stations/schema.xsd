@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:geonode="http://www.geonode.org/" xmlns:gml="http://www.opengis.net/gml" xmlns:it.geosolutions="http://www.geo-solutions.it" xmlns:topp="http://www.openplans.org/topp" elementFormDefault="qualified" targetNamespace="http://www.geonode.org/">
+  <xsd:import namespace="http://www.opengis.net/gml" />
+  <xsd:complexType name="fire_stationsType">
+    <xsd:complexContent>
+      <xsd:extension base="gml:AbstractFeatureType">
+        <xsd:sequence>
+          <xsd:element maxOccurs="1" minOccurs="0" name="geom" nillable="true" type="gml:PointPropertyType"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="station_number" nillable="true" type="xsd:int"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="address" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="staff" nillable="true" type="xsd:int"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="apparatus" nillable="true">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="Engine"/>
+                <xsd:enumeration value="Squad/Rescue"/>
+                <xsd:enumeration value="Truck/Tower"/>
+                <xsd:enumeration value="Quint"/>
+                <xsd:enumeration value="Tanker/Tender"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="fire_stations" substitutionGroup="gml:_Feature" type="geonode:fire_stationsType"/>
+</xsd:schema>
