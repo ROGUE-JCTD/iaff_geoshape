@@ -62,3 +62,5 @@ iaff_geoshape/data/arlington/iso_commercial_properties
 iaff_geoshape/data/arlington/incidents/arlington_incidents.sql
 iaff_geoshape/data/arlington/incidents/incidents.csv
 iaff_geoshape/data/arlington/incidents/incidents.json
+iaff_geoshape/data/arlington/inspections/arlington_inspections.sql
+iaff_geoshape/data/arlington/inspections/inspections.csv
