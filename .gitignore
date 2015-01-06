@@ -64,3 +64,4 @@ iaff_geoshape/data/arlington/incidents/incidents.csv
 iaff_geoshape/data/arlington/incidents/incidents.json
 iaff_geoshape/data/arlington/inspections/arlington_inspections.sql
 iaff_geoshape/data/arlington/inspections/inspections.csv
+iaff_geoshape/data/emporis/*.csv
